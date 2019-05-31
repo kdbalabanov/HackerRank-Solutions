@@ -2,7 +2,8 @@
 #include <cstdio>
 using namespace std;
 
-int main() {
-    printf("Hello, World!");
+int main() 
+{
+    cout << "Hello, World!";
     return 0;
 }
