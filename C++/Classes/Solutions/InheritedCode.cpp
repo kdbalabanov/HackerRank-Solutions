@@ -46,7 +46,8 @@ bool checkUsername(string username)
 
 int main() 
 {
-	int T; cin >> T;
+	int T; 
+    cin >> T;
 
 	while(T--) 
     {
