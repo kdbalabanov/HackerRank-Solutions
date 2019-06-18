@@ -7,20 +7,20 @@ using namespace std;
 
 class Triangle
 {
-	public:
-		void triangle()
+    public:
+        void triangle()
         {
-			cout << "I am a triangle" << endl;
-		}
+            cout << "I am a triangle" << endl;
+        }
 };
 
 class Isosceles : public Triangle
 {
-  	public:
-  		void isosceles()
+    public:
+        void isosceles()
         {
-    		cout << "I am an isosceles triangle" << endl;
-  		}
+            cout << "I am an isosceles triangle" << endl;
+        }
 };
 
 //Write your code here.
