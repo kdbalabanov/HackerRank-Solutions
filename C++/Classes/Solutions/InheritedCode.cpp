@@ -25,53 +25,53 @@ class BadLengthException: public exception
 
 bool checkUsername(string username) 
 {
-	bool isValid = true;
-	int n = username.length();
+    bool isValid = true;
+    int n = username.length();
 
-	if(n < 5) 
+    if(n < 5) 
     {
-		throw BadLengthException(n);
-	}
+        throw BadLengthException(n);
+    }
 
-	for(int i = 0; i < n-1; i++) 
+    for(int i = 0; i < n-1; i++) 
     {
-		if(username[i] == 'w' && username[i+1] == 'w') 
+        if(username[i] == 'w' && username[i+1] == 'w') 
         {
-			isValid = false;
-		}
-	}
+            isValid = false;
+        }
+    }
 
-	return isValid;
+    return isValid;
 }
 
 int main() 
 {
-	int T; 
+    int T; 
     cin >> T;
 
-	while(T--) 
+    while(T--) 
     {
-		string username;
-		cin >> username;
+        string username;
+        cin >> username;
 
-		try 
+        try 
         {
-			bool isValid = checkUsername(username);
+            bool isValid = checkUsername(username);
             
-			if(isValid) 
+            if(isValid) 
             {
-				cout << "Valid" << '\n';
-			} 
+                cout << "Valid" << '\n';
+            } 
             else 
             {
-				cout << "Invalid" << '\n';
-			}
-		} 
+                cout << "Invalid" << '\n';
+            }
+        } 
         catch (BadLengthException e) 
         {
-			cout << "Too short: " << e.what() << '\n';
-		}
-	}
+            cout << "Too short: " << e.what() << '\n';
+        }
+    }
 
-	return 0;
+    return 0;
 }
