@@ -11,21 +11,21 @@ class Triangle
     public:
         void triangle()
         {
-     		cout<< "I am a triangle\n" << endl;
-    	}
+            cout<< "I am a triangle\n" << endl;
+        }
 };
 
 class Isosceles : public Triangle
 {
     public:
-    	void isosceles()
+        void isosceles()
         {
-    		cout<< "I am an isosceles triangle" << endl;
-    	}
-  		
+            cout<< "I am an isosceles triangle" << endl;
+        }
+
         void description()
         {
-          cout << "In an isosceles triangle two sides are equal" << endl;
+            cout << "In an isosceles triangle two sides are equal" << endl;
         }
 };
 
@@ -33,7 +33,7 @@ int main()
 {
     Isosceles isc;
     isc.isosceles();
-  	isc.description();
+    isc.description();
     isc.triangle();
     return 0;
 }
