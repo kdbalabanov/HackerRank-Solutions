@@ -1,6 +1,6 @@
 # HackerRank Solutions
 
-I use this project to track my HackerRank solutons. Problem statements and solutions are separated in "ProblemStatements" and "Solutions" folders. The problem statements and their corresponding solutions have matching names.
+I use this project to track my HackerRank solutons. Problem statements and solutions are separated in "ProblemStatements" and "Solutions" folders. Each category/language has its own folder with subfolders where subcategories are present. The problem statements and their corresponding solutions have matching names.
 
 Languages used so far: Java 8, Python 3, JavaScript, C++ and Scala.
 
