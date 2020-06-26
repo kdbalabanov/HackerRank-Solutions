@@ -11,5 +11,3 @@ class Solution:
                 return [result[diff], i]
             
             result[nums[i]] = i
-            
-        return result
