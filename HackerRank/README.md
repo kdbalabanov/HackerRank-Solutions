@@ -1,10 +1,13 @@
-# HackerRank Solutions
+# Coding Problems Solutions
 
-I use this project to track my HackerRank solutons. Problem statements and solutions are separated in "ProblemStatements" and "Solutions" folders. Each category/language has its own folder with subfolders where subcategories are present. The problem statements and their corresponding solutions have matching names.
+I use this project to track my coding problems solutons from platforms such as HackerRank, LeetCode and so on.
 
-Languages/topics explored so far: Java 8, Python 3, JavaScript, C++, SQL, Scala, Regular Expressions, LinuxShell.
+For HackerRank, statements and solutions are separated in "ProblemStatements" and "Solutions" folders. Each category/language has its own folder with subfolders where subcategories are present. The problem statements and their corresponding solutions have matching names.
 
-More details can be found on my HackerRank [profile](https://www.hackerrank.com/k_d_balabanov).
+For LeetCode, there is a link to the problem at the top of each solution file.
+
+HackerRank [profile](https://www.hackerrank.com/k_d_balabanov)
+LeetCode [profile](https://leetcode.com/k_d_b/)
 
 ## License
 
